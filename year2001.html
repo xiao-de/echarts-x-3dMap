@@ -216,19 +216,22 @@ $.ajax({
                                 },
                                 
                                 position: 'inside',
-                                formatter:function(params,ticket,callback){
-                                    return params.name;
+                                formatter:function(params,callback){
+                                    return params.data.label;
                                 }
                             }
                         }
                     },
                     data: [{
-                        name:'北京',
+                        label:'BJ',
+                        name:'aaaaaaaaa',
 						geoCoord: [116.46, 39.92]
 					}, {
+                        label:'GZ',
                         name:'广州',
 						geoCoord: [113.51,23.22]
 					},{
+                        label:'SH',
                         name:'上海',
                         geoCoord: [121.48, 31.22]
                     }],
