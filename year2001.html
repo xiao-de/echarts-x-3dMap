@@ -270,22 +270,19 @@ $.ajax({
                                 label: {
                                     show: true,
                                     color:'#333333',
-                                    formatter:function(params,ticket,callback){
-                                        return params.name;
-                                    },
                                     position: 'top',
-                                    textStyle: {
-                                        color: 'black'
-                                    }
+                                    // textStyle: {
+                                    //     color: 'black'
+                                    // }
                                 },
                                 lineStyle: {
-                                    type: "solid",
-                                    shadowColor : 'rgba(1,0,0,0)', //默认透明
-                                    width: 2,
-                                    opacity: 1,
-                                    shadowBlur: 5,
-                                    shadowOffsetX: 3,
-                                    shadowOffsetY: 3
+                                    //type: "solid",
+                                    //shadowColor : 'rgba(1,0,0,0.1)', //默认透明
+                                    //width: 100,
+                                    opacity: 1, //连线粗细
+                                    // shadowBlur: 5,
+                                    // shadowOffsetX: 3,
+                                    // shadowOffsetY: 3
                                 },
                             }
                         },
